@@ -29,6 +29,9 @@ while True:
    ___ \    |            |   __/  (          |  (     (   |  |   | 
  _/    _\ ___|     _____/  \___| \___| _____/  \___| \__,_| _|  _| 
 
+ + -- --=[ AI-powered security scanning tool ]--  
+ + -- --=[ Automated Nmap & Gobuster scans with AI analysis ]  
+ + -- --=[ Generates professional vulnerability reports for IT security ]  
 
  """
     target = input("Enter the target IP or URL: ").strip()
