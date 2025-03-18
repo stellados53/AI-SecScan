@@ -22,6 +22,15 @@ def verify_target(target):
 
 # Get and verify target IP/URL
 while True:
+    print("""
+    
+     \    _ _|       ___|                ___|                      
+    _ \     |      \___ \    _ \   __| \___ \    __|   _` |  __ \  
+   ___ \    |            |   __/  (          |  (     (   |  |   | 
+ _/    _\ ___|     _____/  \___| \___| _____/  \___| \__,_| _|  _| 
+
+
+ """
     target = input("Enter the target IP or URL: ").strip()
     if verify_target(target):
         print(f"✅ Target {target} is reachable.")
