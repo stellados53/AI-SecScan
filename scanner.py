@@ -33,7 +33,7 @@ while True:
  + -- --=[ Automated Nmap & Gobuster scans with AI analysis ]  
  + -- --=[ Generates professional vulnerability reports for IT security ]  
 
- """
+ """)
     target = input("Enter the target IP or URL: ").strip()
     if verify_target(target):
         print(f"✅ Target {target} is reachable.")
