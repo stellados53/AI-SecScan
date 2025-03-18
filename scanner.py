@@ -22,7 +22,7 @@ def verify_target(target):
 
 # Get and verify target IP/URL
 while True:
-    print("""
+    print(r"""
     
      \    _ _|       ___|                ___|                      
     _ \     |      \___ \    _ \   __| \___ \    __|   _` |  __ \  
