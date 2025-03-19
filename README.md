@@ -58,7 +58,7 @@ sudo dnf install nmap gobuster -y
 -   Now modify with your actual API key:
 
     ```
-    nano scanner.py
+    nano config.py
     ```
 
 -   Replace `api_key` with your actual API key in `config.py`:
