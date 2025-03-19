@@ -25,7 +25,6 @@ AI SECSCAN is a Python-based tool that leverages **Google's Gemini AI** to analy
 
 ```
 cd ai-secscan
-
 ```
 
 ### 3\. Install system dependencies (Nmap & Gobuster)
@@ -37,21 +36,18 @@ AI SECSCAN relies on **Nmap** and **Gobuster**, so install them before proceedin
 ```
 sudo apt update
 sudo apt install nmap gobuster -y
-
 ```
 
 **For Arch-based systems (Manjaro, BlackArch):**
 
 ```
 sudo pacman -S nmap gobuster
-
 ```
 
 **For RHEL-based systems (Fedora, CentOS):**
 
 ```
 sudo dnf install nmap gobuster -y
-
 ```
 
 ### 4\. Get the Gemini API Key
@@ -63,14 +59,12 @@ sudo dnf install nmap gobuster -y
 
     ```
     nano scanner.py
-
     ```
 
 -   Replace `api_key` with your actual API key in `config.py`:
 
     ```
-    GEMINI_API_KEY= 
-
+    GEMINI_API_KEY="aaddxxxxx"
     ```
 
 -   Save and exit: `CTRL + X`, press `Y`, then `ENTER`.
@@ -78,8 +72,7 @@ sudo dnf install nmap gobuster -y
 ### 5\. Install Python dependencies:
 
 ```
-pip install -r requirements.txt --break-system
-
+pip install -r requirements.txt --break-system-packages
 ```
 
 Usage
@@ -89,19 +82,20 @@ Usage
 
     ```
     python scanner.py
-
     ```
 
 ```
-==============================
-        AI SECSCAN
-==============================
- + -- --=[ AI-powered security scanning tool ]--
- + -- --=[ Automated Nmap & Gobuster scans with AI analysis ]
+     \    _ _|       ___|                ___|                      
+    _ \     |      \___ \    _ \   __| \___ \    __|   _` |  __ \  
+   ___ \    |            |   __/  (          |  (     (   |  |   | 
+ _/    _\ ___|     _____/  \___| \___| _____/  \___| \__,_| _|  _| 
+
+ + -- --=[ AI-powered security scanning tool ]--  
+ + -- --=[ Automated Nmap & Gobuster scans with AI analysis ]  
  + -- --=[ Generates professional vulnerability reports for IT security ]
 
-Enter the target IP or URL:
 
+Enter the target IP or URL: 
 ```
 
 -   Enter the target system when prompted.
@@ -111,11 +105,5 @@ Contributing
 ------------
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-```
-
----
-
-This **README.md** is now **complete**, including installation instructions for **Nmap and Gobuster**, along with all necessary details. Let me know if you need any modifications! 🚀
 
 ```
